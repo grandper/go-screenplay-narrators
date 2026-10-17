@@ -1,0 +1,12 @@
+github.com/aws/smithy-go v1.28.5 h1:OqbqKtzY9NUnr2yAe9+hiTdFb20tNaK/lI0PMOGXX9k=
+github.com/aws/smithy-go v1.28.5/go.mod h1:YE2RhdIuDbA5E5bTdciG9KrW3+TiEONeUWCqxX9i1Fc=
+github.com/grandper/go-monad v1.0.1 h1:Wzgj9DG0z2NE+vo0rHGgU2aI1Glmhj4ZhzhkBnedUEQ=
+github.com/grandper/go-monad v1.0.1/go.mod h1:onHz2HKXbMZdd35uTwa/fqNQ44GMaDjoTXRiU8a1VQg=
+github.com/grandper/go-screenplay/v2 v2.0.0 h1:7BCkeG68T67kJxG20eGyjAszcTl/7KJqqCnAJgr72YQ=
+github.com/grandper/go-screenplay/v2 v2.0.0/go.mod h1:FoZRJw+wjCzXuiLCbiXTuNabGRO3c0bMSQSj7v6DTmg=
+github.com/stretchr/testify v1.12.1 h1:EuwCh5fleGS7H32xRwO3wRGT7DxrDhLAT6FF8MpWDWE=
+github.com/stretchr/testify v1.12.1/go.mod h1:MDEgiDPPsNp5cuIrHPPCyornHKgEVbtFUmoNlxoYthg=
+go.yaml.in/yaml/v3 v3.0.5 h1:N6y/pJk8buWs9NY5ERU2HSMfm+IuD/OtfdAnq6kESPw=
+go.yaml.in/yaml/v3 v3.0.5/go.mod h1:HVTZu1O7/Vkt2N+BFy8Zza+lnLsABggaTM2ZpNIGuKg=
+gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
+gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=

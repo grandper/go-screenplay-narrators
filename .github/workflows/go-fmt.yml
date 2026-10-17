@@ -1,0 +1,34 @@
+name: Golang Format
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+jobs:
+  gofmt:
+    name: Golang Format
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Setup Go environment
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.27"
+          cache: false
+
+      # Every adapter is its own Go module, and the repository root has none:
+      # gofmt checks the files of every module at once, without loading them.
+      - name: Check Go formatting
+        run: |
+          if [ -n "$(gofmt -l .)" ]; then
+            echo "Go files must be formatted with gofmt. Please run 'gofmt -w .' and commit the changes."
+            gofmt -l .
+            exit 1
+          fi
